@@ -1,0 +1,7 @@
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.csprojAssemblyReference.cache
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.AssemblyInfoInputs.cache
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.AssemblyInfo.cs
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.csproj.CoreCompileInputs.cache
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.MvcApplicationPartsAssemblyInfo.cache
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.RazorAssemblyInfo.cache
+/root/websenac/uc004/upload/obj/Debug/netcoreapp3.1/upload.RazorAssemblyInfo.cs

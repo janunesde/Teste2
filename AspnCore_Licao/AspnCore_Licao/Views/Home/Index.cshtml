@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 class="display-4">Macoratti .net</h1>
+    <p class="lead">Criando Action Links.</p>
+    <hr class="my-4">
+    <p>@Html.ActionLink("Link para a Action About no mesmo controlador", "About")</p>
+    <p>@Html.ActionLink("Link para a Action Index no controlador ContatosController","Index","Contatos")</p>
+    <div class="col-md-12">
+        <h3>Action Link com atributos HTML customizados</h3>
+        @Html.ActionLink("Este link se parece como um button","Contact","Home",null,new { @class = "btn btn-primary"})
+    </div>
+    <p>
+    <p>Criar um Action Link com HTTPS</p>
+        @Html.ActionLink("Página Segura","Login","Home","https", "localhost:44357", null,null,null)
+    </p>
+    <p>
+     <h3>Action Link com fragmento</h3>
+        @Html.ActionLink("Editar configurações de Email","Perfil", "Home", "", "", "Email", null, null)
+    </p>
+    <p>
+        <h3>Action Link que inclui uma imagem</h3>
+        <a href="@Url.Action("Contact", "Home")">
+            <img src="~/images/pipoca.jpg"  width="80" height="80"/>
+        </a>
+    </p>
+    <br />
+    <br />
+    <p class="lead">
+        <a class="btn btn-primary btn-lg" href="http://www.macoratti.net" role="button">Aprenda mais</a>
+    </p>
+</div>
+
+

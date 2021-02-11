@@ -1,0 +1,24 @@
+@using Microsoft.AspNetCore.Http
+@using Atividade2.Models
+@model Pacote    
+@{
+    ViewData["Title"] = "Principal";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seja bem vindo @Context.Session.GetString("nome") </h1>
+     
+
+        <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="btn btn-primary" asp-area="" asp-controller="Usuario" asp-action="CadastroViagem">Cadastrar Viagem</a>
+            </li>
+            <p></p>
+             <li class="nav-item">
+                <a class="btn btn-primary" asp-area="" asp-controller="Usuario" asp-action="CadastroUsuario">Cadastrar Usuário</a>
+            </li>
+        </ul>     
+
+          
+    <p>Para mais informações sobre o <a href="https://docs.microsoft.com/aspnet/core"> DotNet Microsoft</a>.</p>
+</div>

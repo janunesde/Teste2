@@ -1,0 +1,40 @@
+@model Usuario
+@using Microsoft.AspNetCore.Http
+@using Atividade2.Models
+<div>
+    <h2>Exclusão de Usuário</h2>
+    <div>
+        <table class="table table-striped">
+                    <tr>
+                        <th></th>                        
+                        <th>Nome Usuário</th>
+                        <th>Data Nascimento</th>                        
+                     </tr>
+                @{
+              
+                        UsuarioRepository ur = new UsuarioRepository();
+                }
+                    @foreach(Usuario U in ur.Listar()){            
+                     <tr>
+                         <td>@U.Id</td>
+                         <td>@U.Nome</td>
+                         <td>@U.DataNascimento</td>
+                         <td>
+                            <a >Excluir</a> 
+                        </td>                                               
+                     </tr>        
+                     }
+                                    
+                </table>
+    </div>
+    <div>
+        <form asp-action="ExcluirUsuario" method="POST">
+            <label asp-for="Id">Id do Usuário</label>
+            <input asp-for="Id">
+            <input type="submit" class="btn btn-primary" value="Excluir">
+        </form>
+    </div>
+</div>
+
+<br>
+<br>

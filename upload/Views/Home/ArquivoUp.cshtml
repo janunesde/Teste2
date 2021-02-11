@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title></title>
+</head>
+<body>
+  <div>
+  <div id="content">
+    <form id="form2" runat="server">
+      <div>
+        <br />
+        <asp:FileUpload ID="FileUploadControl" runat="server"
+        class="multi" AllowMultiple="True" />
+        <br />
+            <asp:Label runat="server" id="StatusLabel" text=""
+            ForeColor="Red" />
+        <br />
+        <asp:Button ID="btnUpload" runat="server" Text=" Carregar Fotos "
+            onclick="btnUpload_Click" BackColor="#CC0000" BorderColor="#CC0000"
+            Font-Bold="True" ForeColor="White" />
+        <br /> <br />
+      </div>
+    </form>
+     <br class="clearfix" />
+  </div>
+  </div>
+</body>
+</html>

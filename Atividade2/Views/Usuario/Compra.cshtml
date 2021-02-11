@@ -1,0 +1,43 @@
+@model Compra
+@using Microsoft.AspNetCore.Http
+
+<div>
+ <h2 class="text-center">Fazer Compras</h2>
+ <p>@ViewBag.Mensagem</p>
+  <form asp-action="Comprar" method="POST">
+     
+        <p>  
+     <label asp-for="IdCompra">Compra:</label>
+     <input asp-for="IdCompra" type="text">               
+      <label asp-for="IdUsuario">Usuario</label>
+      <input asp-for="IdUsuario"  id="id" type="text">
+        
+    <label asp-for="Valor">Valor</label>
+     <input asp-for="Valor" type="text">
+     </p>    
+     <p>
+     <label asp-for="Total">Total</label>
+     <input asp-for="Total" type="text">
+      <select asp-for="Pagamento">Forma de pagamento:
+         <option value="1">Em Dinheiro</option>
+         <option value="2">Com Cartão de Crédito</option>
+         <option value="3">Com Cartão de Dédito</option>
+     </select> 
+             
+     <input type="submit" value="Comprar">
+     </p>
+ </form>
+      @if (Context.Session.GetInt32("id") != null)
+      {
+          @if (Context.Session.GetString("tipo") == "1"){
+              <p>Administrador</p>
+            }else{
+                <p>Usuário comum</p>
+            }
+            }      
+  
+   </div>
+<br>
+<br>
+<br>
+<br>

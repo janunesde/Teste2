@@ -1,0 +1,27 @@
+@using Microsoft.AspNetCore.Http
+@using Atividade2.Models
+@model Pacote    
+@{
+    ViewData["Title"] = "Principal";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Seja bem vindo @Context.Session.GetString("nome") </h1>
+  <table>
+  <tr>
+    <th>Nome</th>
+    <th>Destino</th>
+  </tr>
+      @{
+              
+       PacoteRepository a = new PacoteRepository();
+      }
+        @foreach(Pacote bla in a.Listar()){            
+            <tr>
+            <td>@bla.Nome</td>
+            <td><a href="viagem">@bla.Destino </a> </td>
+    </tr>        
+        }                
+</table>
+
+ 

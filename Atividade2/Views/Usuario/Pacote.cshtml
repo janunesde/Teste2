@@ -1,0 +1,17 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Atividade2.Models
+@model Pacote   
+
+<div class="text-center">
+   @if (Context.Session.GetInt32("id") != null){
+    <h1 class="display-4">Bem vindo @Context.Session.GetString("nome")</h1>
+   } else{
+       <h1 class="display-4">Pacotes!</h1>
+        
+   }
+</div>
+<div>        
+
+      <h4 class="display-4">Conte sempre com nossos serviços</h4>       
+           
+ </div>    

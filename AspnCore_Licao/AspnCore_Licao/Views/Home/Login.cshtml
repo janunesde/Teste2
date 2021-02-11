@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+<br />
+<form action="Index">
+
+    <div class="container">
+        <label for="unome"><b>Usuario</b></label>
+        <input type="text" placeholder="Informe o nome " name="unome" required>
+        <br />
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Informe a Password" name="psw" required>
+        <br />
+        <button type="submit">Login</button>
+        <br />
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Lembrar-me
+        </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancelar</button>
+        <span class="psw">Esqueceu a <a href="#">password ?</a></span>
+    </div>
+</form>
+

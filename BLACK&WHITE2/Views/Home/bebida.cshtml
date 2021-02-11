@@ -1,0 +1,34 @@
+
+@model itens
+
+<h2  align="center"  >Escolha a</h2>
+<form method="POST">
+<p>
+
+   <!--adicionados-->
+   <div>
+        <label  class="col-form-label-sm" asp-for="Nome  " >Nome</label> <br>
+     <input asp-for="Nome" />
+     
+     <br>
+     <label asp-for="Bebida" >Bebida</label>  <br>
+     <select name="Bebida" >
+        <option  asp-for="Bebida">Skol "Caixa"</option>
+        <option asp-for="">Brahma "Caixa"</option>
+        <option asp-for="">Itaipava "Caixa"</option>
+        <option asp-for="">Heineken "Caixa"</option>
+        <option asp-for="">Budweiser "Caixa"</option>
+        <option asp-for="">Antarctica "Caixa"</option>
+    </select>
+   
+     <br>
+     <label asp-for="Quantidade" >Quatidade</label> 
+   <br>
+   <input asp-for="Quantidade" /><br>
+      <label asp-for="Descricao" >Descriçao bebida</label>    <br>
+     <textarea asp-for="Descricao" style=" height:80px;" ></textarea>
+      <br>
+     
+    <input type="submit" value="Enviar">
+</p>
+</form>

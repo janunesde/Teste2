@@ -1,0 +1,12 @@
+@model Usuario
+
+<div>
+    <h2>Exclusão de Usuário</h2>
+    <div>
+        <form asp-action="Excluir" method="POST">
+            <label asp-for="Id">Id do Usuário</label>
+            <input asp-for="Id">
+            <input type="submit" value="Excluir">
+        </form>
+    </div>
+</div>

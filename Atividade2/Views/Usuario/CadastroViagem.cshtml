@@ -1,0 +1,39 @@
+@model Pacote
+<div class="border border-primary container-fluid">
+ <h2 class="text-center">Cadastro de Viagem</h2>
+ <p>@ViewBag.Mensagem</p>
+ <form asp-action="CadastroViagem" method="POST">
+     <p>
+     <label asp-for="Nome">Nome:</label>
+     <textarea asp-for="Nome"></textarea>
+     </p>
+     <p>
+     <label asp-for="Origem">Origem:</label>
+     <input asp-for="Origem" type="text">
+    
+     <label asp-for="Destino">Destino:</label>
+     <input asp-for="Destino" type="text">
+     </p>
+     <p>
+     <label asp-for="Atrativos">Atrativos:</label>
+     <input asp-for="Atrativos" type="text">
+    
+     <label asp-for="Saida">Saída:</label>
+     <input asp-for="Saida" type="text">
+      </p>
+     <p>
+     <label asp-for="Retorno">Retorno:</label>
+     <input asp-for="Retorno" type="text">
+      
+     <label asp-for="Usuario">Usuario:</label>
+     <input asp-for="Usuario" type="text">
+      </p> 
+      <p class="text-center"> 
+     <input type="submit" value="Cadastrar">
+     <input type="reset" value="Limpar">
+     </p>
+ </form>
+
+</div>
+<br>
+<br>

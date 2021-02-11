@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XC9jHpDOhIjKhJeREpKyK9fX5GMkxYFe9dz0YzfoeXPRZoCi90TE4sjNr32/syxjGyv9ZL9RcthWQK983haQew==",
+  "success": true,
+  "projectFilePath": "/root/websenac/uc004/Cadastros/Cadastros.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/mysqlconnector/1.0.1/mysqlconnector.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/mauro/DotnetProjects/uc04at02/uc04at02.csproj": {}
+  },
+  "projects": {
+    "/home/mauro/DotnetProjects/uc04at02/uc04at02.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/mauro/DotnetProjects/uc04at02/uc04at02.csproj",
+        "projectName": "uc04at02",
+        "projectPath": "/home/mauro/DotnetProjects/uc04at02/uc04at02.csproj",
+        "packagesPath": "/home/mauro/.nuget/packages/",
+        "outputPath": "/home/mauro/DotnetProjects/uc04at02/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/mauro/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

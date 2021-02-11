@@ -1,0 +1,81 @@
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.exe
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.deps.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.runtimeconfig.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.runtimeconfig.dev.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.dll
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.pdb
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.Views.dll
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.Views.pdb
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csprojAssemblyReference.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.AssemblyInfoInputs.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.AssemblyInfo.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csproj.CoreCompileInputs.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorAssemblyInfo.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorAssemblyInfo.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.TagHelpers.input.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.TagHelpers.output.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorCoreGenerate.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorTargetAssemblyInfo.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorTargetAssemblyInfo.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.Views.pdb
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/staticwebassets/BLACK&WHITE.StaticWebAssets.Manifest.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/staticwebassets/BLACK&WHITE.StaticWebAssets.xml
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.dll
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.pdb
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.genruntimeconfig.cache
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csproj.CopyComplete
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/bebida.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Bebida_pagina.cshtml.g.cs
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/bin/Debug/netcoreapp3.1/package-lock.json
+C:/Users/Usuário/Documents/CURSO TECNICO-SENAC/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Skol.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/appsettings.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/package-lock.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.deps.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.runtimeconfig.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.runtimeconfig.dev.json
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.dll
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.pdb
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.Views.dll
+/root/websenac/uc004/BLACK&WHITE/bin/Debug/netcoreapp3.1/BLACK&WHITE.Views.pdb
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csprojAssemblyReference.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.AssemblyInfoInputs.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.AssemblyInfo.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csproj.CoreCompileInputs.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.MvcApplicationPartsAssemblyInfo.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorAssemblyInfo.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorAssemblyInfo.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.TagHelpers.input.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.TagHelpers.output.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorCoreGenerate.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/bebida.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Bebida_pagina.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/Skol.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorTargetAssemblyInfo.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.RazorTargetAssemblyInfo.cs
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.Views.pdb
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/staticwebassets/BLACK&WHITE.StaticWebAssets.Manifest.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/staticwebassets/BLACK&WHITE.StaticWebAssets.xml
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.dll
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.pdb
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.genruntimeconfig.cache
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/BLACK&WHITE.csproj.CopyComplete
+/root/websenac/uc004/BLACK&WHITE/obj/Debug/netcoreapp3.1/Razor/Views/Home/123.cshtml.g.cs

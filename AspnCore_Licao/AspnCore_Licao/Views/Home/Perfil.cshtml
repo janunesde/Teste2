@@ -1,0 +1,103 @@
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Editar seu Perfil";
+}
+<script>
+    $(function () {
+        navToTab();
+        /**
+        * check to see if URL contains a hash and if so try and navigate to the correct tab
+        */
+        function navToTab() {
+            var tab = $(location).attr('href');
+            var re = new RegExp('#+[a-z]+', 'i');
+            var m = re.exec(tab);
+            if (m) {
+                $("#tabMenu a[href='" + m + "']").tab('show');
+            }
+        }
+        /**
+        * if someone changes fragment in address bar
+        */
+        $(window).bind('hashchange', function () {
+            navToTab();
+        });
+    });
+</script>
+<div class="tabbable tabs-left" id="tabMenu">
+    <ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#Info"
+               data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Informação Pessoal</a>
+        </li>
+        <li>
+            <a href="#Avatar"
+               data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Seu Avatar</a>
+        </li>
+        <li>
+            <a href="#Bio" data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Sua Bio &amp; Influências</a>
+        </li>
+        <li>
+            <a href="#Talentos" data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Seus Talentos</a>
+        </li>
+        <li>
+            <a href="#Contato"
+               data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Informação de Contato</a>
+        </li>
+        <li>
+            <a href="#Privado"
+               data-toggle="tab"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Configurações privadas</a>
+        </li>
+        <li>
+            <a href="#Email"
+               data-toggle="tab"
+               data-tab-history="true"
+               data-tab-history-update-url="true"
+               data-tab-history-changer="push">Configurações de Email</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="Info">
+            <h3>Informação básica Info</h3>
+        </div>
+        <div class="tab-pane" id="Avatar">
+            <h3>Avatar</h3>
+        </div>
+        <div class="tab-pane" id="Bio">
+            <h3>Sua biografia</h3>
+        </div>
+        <div class="tab-pane" id="Talentos">
+            <h3>Seus talentos</h3>
+        </div>
+        <div class="tab-pane" id="Contato">
+            <h3>Informação de Contato</h3>
+        </div>
+        <div class="tab-pane" id="Privado">
+            <h3>Configurações privadas</h3>
+        </div>
+        <div class="tab-pane" id="Email">
+            <h3>Configurações de Email</h3>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script src="/scripts/home/editprofile.js"></script>
+    <script src="~/lib/bootstrap-tab-history/vendor/assets/javascripts/bootstrap-tabhistory.js"></script>
+}

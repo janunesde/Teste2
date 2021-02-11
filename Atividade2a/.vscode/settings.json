@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "Atividade2",
+            "driver": "MySQL",
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "name": "Atividade2UC004",
+            "password": "",
+            "port": 3306,
+            "previewLimit": 500,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "database": "Atividade2",
+            "driver": "MariaDB",
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "name": "Atividade2",
+            "port": 3306,
+            "previewLimit": 250,
+            "server": "localhost",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}

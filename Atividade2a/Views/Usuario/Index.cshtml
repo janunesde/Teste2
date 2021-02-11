@@ -1,0 +1,49 @@
+﻿@using Microsoft.AspNetCore.Http
+@using Atividade2.Models
+@model Pacote
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+   @if (Context.Session.GetInt32("id") != null){
+    <h1 class="display-4">Bem vindo @Context.Session.GetString("nome")</h1>
+   } else{
+       <h1 class="display-4">Agradecimentos!</h1>
+   }
+</div>
+<div>
+          @if (Context.Session.GetInt32("id") == null){
+           <h1> A Viagem Alegre tem o prazer em te auxiliar e proporcional momentos inesqueciveis</h1>
+           <table class="table table-striped">
+  <tr>
+    <th>Viagem</th>
+    <th>Atrativos</th>
+    <th>Origem</th>
+    <th>Destino</th>
+    <th>Saida</th>
+    <th>Retorno</th>
+    <th>Comprar</th>
+  </tr>
+      @{
+              
+       PacoteRepository a = new PacoteRepository();
+      }
+        @foreach(Pacote P in a.Listar()){            
+            <tr>
+            <td>@P.Nome</td>
+            <td>@P.Atrativos</td>
+            <td>@P.Origem</td>
+            <td>@P.Destino</td>
+            <td>@P.Saida</td>
+            <td>@P.Retorno</td>
+            <td>
+                <a href="">Comprar </a>
+            </td>
+    </tr>        
+        }                
+</table>
+          } else{
+             
+          } 
+ </div>    

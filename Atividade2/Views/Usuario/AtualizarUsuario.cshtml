@@ -1,0 +1,75 @@
+@model Usuario
+@inject IJSRuntime JSRuntime
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+@using Microsoft.AspNetCore.Http
+@using Microsoft.JSInterop
+@using Atividade2.Models
+<div>
+    <h2>Atualização de Usuário</h2>
+   <div>
+      <script>
+        window.convertArray = (win1251Array) => {
+            var win1251decoder = new TextDecoder('windows-1251');
+        var bytes = new Uint8Array(win1251Array);
+        var decodedArray = win1251decoder.decode(bytes);
+        console.log(decodedArray);
+        return decodedArray;
+    };
+</script>
+ </div>
+    <div>
+
+<button onclick="DemoFunction();">
+    Listar
+</button>
+<script type="text/javascript">
+function DemoFunction()
+{
+ var stringValue1=$('#street').val(); --> if you use jQuery
+
+ var stringValue2=document.getElementById("street").value; --> if you use 
+ only javascript
+ alert(stringValue1);
+ alert(stringValue2);
+}
+</script>
+
+        <form asp-action="AtualizarUsuario" method="POST">
+            <label asp-for="Id">Id do Usuário</label>
+            <input asp-for="Id">
+            <input type="submit" class="btn btn-primary" value="Atualizar">
+        </form>
+    </div>    
+    
+</div>
+
+<br>
+<br>
+<script>
+async function connect(){
+    if(global.connection && global.connection.state !== 'disconnected')
+        return global.connection;
+ 
+    const mysql = require("mysql2/promise");
+    const connection = await mysql.createConnection("'localhost','root','','Viagem'");
+    console.log("Conectou no MySQL!");
+    global.connection = connection;
+    return connection;
+}
+
+async function listando(){
+    const conn = await connect();
+    const sql = 'SELECT  * FROM usuario';
+    var list=mysqli_query(conn, sql);
+    var row=mysqli_fetch_assoc(list);
+    alert("", row['nome']);
+    alert("Successful signup your order number is' . row['nome'] . '")';
+    return await conn.query(sql, values);
+}
+ function liste(){
+     alert;
+ }
+
+</script>
+
+

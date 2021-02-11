@@ -1,0 +1,7 @@
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.csprojAssemblyReference.cache
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.AssemblyInfoInputs.cache
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.AssemblyInfo.cs
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.csproj.CoreCompileInputs.cache
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.MvcApplicationPartsAssemblyInfo.cache
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.RazorAssemblyInfo.cache
+/root/websenac/uc004/Cadastros/obj/Debug/netcoreapp3.1/Cadastros.RazorAssemblyInfo.cs

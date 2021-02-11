@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E5fUVGqBzqYASs63Vzx0ZgYJkgdKGMpWpjEX3z1iiuhYwISpRdhv2Djd/z1FL71kUfV2x8Aa+SDUx7BHe36WXg==",
+  "success": true,
+  "projectFilePath": "/root/websenac/uc004/Atividade2a/Atividade2.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/mysqlconnector/1.0.1/mysqlconnector.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
